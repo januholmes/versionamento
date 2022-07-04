@@ -1,0 +1,43 @@
+cd nomedapsta
+cd ../ (voltar)
+cd clear (apagar tudo)
+git init (abrir repositório)
+git config --global user.name "nomeusuario" (adicionar usuário)
+git config --global user.email "nomeemail@email" (adicional email)
+git config --list (lista todos arquivos de configuração default)
+git config --global core.editor vscode (aponta editor)
+git status (informações)
+git branch (para ramificações)
+git add . (adiciona TODOS os arquivos que não estavam rastreados)
+git add nomedoarquivo (adiciona o arquivo específico que não estava rastreado)
+git commit -m "comentário" (adicionar comentários e salvar alterações)
+q (quit; para sair da seleção de commit)
+git log (exibir os registros do commit)
+ls (mostra o que tem dentro da pasta)
+git show (mostra a ultima alteração detalhada)
+git reset (desfazer um commit);  --soft (desfaz o commit, selecionando a criptografia); --mixed (desfaz o add e o commit); --hard (apaga o arquivo do sistema)
+git branch (para saber quantas e quais branchs estão sendo utilizadas)
+git branch nomedanovabranch (cataloga essa nova branch)
+git checkout nomedanovabranch (para utilizar a nova branch)
+.gitignore (para introduzir conteúdo oculto)
+git log —oneline (git logs resumidos)
+git pull (para baixar um arquivo do github para o git local)
+git push (para adicionar as alterações locais para o github)
+git remote remove origin (remover a conexão da branch no githun)
+git remote -v (pra ver se as branchs foram removidas do github)
+git remote add origin linkdogithub (para adicionar ssd ou http)
+
+
+
+
+git = local; github = nuvem
+SETA PRA CIMA = mostra todos os comando já utilizados
+(master) = ramo/ambiente principal
+A CADA SALVAMENTO COLOCAR COMMIT (detalhando qual alteração ocorreu)
+não usar acento, espaços e letras maiúsculas no nome dos arquivos e pastas
+
+https://git-scm.com/docs/git#_git_commands
+https://pt.stackoverflow.com/
+
+Stack Overflow em Português (https://pt.stackoverflow.com/)
+Perguntas e respostas para programadores profissionais e entusiastas
